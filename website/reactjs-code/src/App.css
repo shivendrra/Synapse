@@ -66,3 +66,8 @@ form {
   position: sticky;
   box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.537);
 }
+
+audio {
+  margin: auto none;
+  max-width: 100%;
+}

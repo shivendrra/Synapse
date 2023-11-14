@@ -14,7 +14,7 @@ export default function VideoCard(props) {
         const audioUrl = `https://www.youtube.com/watch?v=${videoUrl}&t=${duration || '0s'}`;
         console.log('audio Url fetching worked ' + audioUrl)
         setAudioUrl(audioUrl);
-        setBottomNav(true);
+        setBottomNav(' ');
 
         return audioUrl;
       } catch (error) {
@@ -59,7 +59,7 @@ export default function VideoCard(props) {
             </div>
           </div>
         </div>
-        {bottomNav && <BottomNav audioUrl={audioUrl} audioTitle={props.title} />}
+        <BottomNav audioUrl={audioUrl} audioTitle={props.title} state={bottomNav}/>
       </div>
     </>
   );
