@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.use(express.json());
 
-const API_KEY = 'AIzaSyBhbYzOh_B3snsiBlCEwI4DdUZbKJVHass'; // Replace with your YouTube API key
+const API_KEY = ' '; // Replace with your YouTube API key
 
 router.post('/', async (req, res) => {
   try {
