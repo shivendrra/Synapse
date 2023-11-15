@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # API key
-API_KEY = 'AIzaSyBhbYzOh_B3snsiBlCEwI4DdUZbKJVHass'
+API_KEY = 'your api key'
 
 # get the string to be searched
 search_string = input("Enter the search string: ")
