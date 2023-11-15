@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.post('/search', async (req, res) => {
   try {
-    const API_KEY = 'AIzaSyBhbYzOh_B3snsiBlCEwI4DdUZbKJVHass'; // Replace with your actual YouTube API key
+    const API_KEY = ' '; // Replace with your actual YouTube API key
     const { query } = req.body;
     const maxResults = 10; // Set the number of results you want
 
