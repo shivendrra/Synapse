@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
 }
 
+/* width */
 ::-webkit-scrollbar {
   display: none;
 }
